@@ -26,16 +26,24 @@
 
   </head>
   <body class="bg-[#181719] text-white">
-    <header class="pt-2 relative">
-      <div class="flex justify-between items-center px-5">
+    <header class="pt-2 md:pt-5 relative">
+      <div class="flex justify-between items-center px-5 md:px-10">
         <div class="border p-2">
           <p class="uppercase">this interior</p>
         </div>
-        <button class="text-white cursor-pointer action_btn">
+        <button class="text-white cursor-pointer action_btn md:hidden">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
             <path class="path" stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
           </svg>
         </button>
+        <nav class="w-1/2 hidden md:block">
+          <ul class="flex justify-between">
+            <li><a class="hover:border-b-2 hover:border-white" href="">Home</a></li>
+            <li><a class="hover:border-b-2 hover:border-white" href="">Collection</a></li>
+            <li><a class="hover:border-b-2 hover:border-white" href="">About</a></li>
+            <li><a class="hover:border-b-2 hover:border-white" href="">Contact</a></li>
+          </ul>
+        </nav>
       </div>
       <div class="bg-[#181719] fixed inset-x-0 bottom-0 top-16 z-50 text-center text-xl hidden mobile_menu">
         <nav>
