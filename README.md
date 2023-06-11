@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Interior Consultant Clone</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://www.figma.com/proto/3cf83hHRBAGjG5EKPcG2bV/interior-consultant-challenge?type=design&node-id=1-4&scaling=min-zoom&page-id=0%3A1">
       Demo
     </a>
     <span> | </span>
@@ -41,6 +41,7 @@
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
+  You can see demo in figma design file, this is show us all design 
 - What was your experience?
 - What have you learned/improved?
 - Your wisdom? :)
